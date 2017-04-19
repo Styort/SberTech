@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.styort.battery.MainActivity">
+
+    <ImageView
+        android:id="@+id/battery_iv"
+        android:layout_width="@dimen/battery_width"
+        android:layout_height="@dimen/battery_heigth"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/battery_margin"
+        android:layout_marginTop="@dimen/battery_margin"
+        android:src="@drawable/battery" />
+
+    <TextView
+        android:id="@+id/battery_percent_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/battery_iv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/battery_margin"
+        android:textAppearance="@style/percentAppearance" />
+
+    <TextView
+        android:id="@+id/battery_technology_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/battery_percent_tv"
+        android:layout_marginLeft="@dimen/battery_margin"
+        android:textAppearance="@style/percentAppearance" />
+
+    <TextView
+        android:id="@+id/battery_status_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/battery_technology_tv"
+        android:layout_marginLeft="@dimen/battery_margin"
+        android:layout_marginTop="@dimen/battery_margin"
+        android:textAppearance="@style/percentAppearance" />
+</RelativeLayout>

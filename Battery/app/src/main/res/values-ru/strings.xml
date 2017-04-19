@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Батарея</string>
+
+    <string name="battery_percent_format">%1$d%%</string>
+    <string name="battery_technology">Технология батареи: </string>
+    <string name="battery_status">Статус: </string>
+
+    <string-array name="battery_states">
+        <item>Нет батареи</item>
+        <item>Неизвестно</item>
+        <item>Заряжается</item>
+        <item>Разряжается</item>
+        <item>Не заряжается</item>
+        <item>Заряжено</item>
+    </string-array>
+</resources>

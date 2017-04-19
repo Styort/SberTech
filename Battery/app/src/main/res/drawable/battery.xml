@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="rectangle">
+            <stroke
+                android:width="@dimen/battery_stroke"
+                android:color="@color/batteryStroke" />
+            <corners android:radius="@dimen/battery_corners" />
+        </shape>
+    </item>
+
+    <item>
+        <clip
+            android:clipOrientation="vertical"
+            android:gravity="bottom">
+            <shape android:shape="rectangle">
+                <stroke
+                    android:width="@dimen/battery_stroke"
+                    android:color="@color/batteryStroke" />
+                <corners android:radius="@dimen/battery_corners" />
+                <solid android:color="@color/batteryFill" />
+            </shape>
+        </clip>
+    </item>
+
+</layer-list>
